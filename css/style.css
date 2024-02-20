@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    /* outline: 1px; */
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin:50px auto;
+
+}
+.container .row{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .row .col{
+    width: calc(1180px / 2);
+    /* height: 500px; */
+    /* background-color: red; */
+   
+}
+.col .row-1{
+    width: 100%;
+    display: flex;
+}
+
+.col .child-row-1{
+    width: 50%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.col .child-row-1 label{
+    font-size: 18px;
+
+}
+.col .child-row-1 input{
+    width: 290px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 0 10px;
+    margin-top: 15px;
+    border: 0.5px solid grey;
+}
+.col .child-row-1 input::placeholder{
+    font-size: 15px;
+}
+.col .child-row-2 {
+    margin-bottom: 40px;
+}
+.col .child-row-2 label{
+    font-size: 18px;
+}
+.col .child-row-2 select{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 0 15px;
+    font-size: 15px;
+}
+.col .row-3{
+    margin-bottom: 40px;
+}
+.col .child-row-3 label{
+    font-size: 18px;
+}
+.col .child-row-3 textarea{
+    padding: 15px;
+    width: 100%;
+    height: 155px;
+    margin-top: 15px;
+    border: 0.5px solid grey;
+}
+.col .row-4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+.col .row-4 .child-row-4{
+    width: 290px;
+    margin-right: 10px;
+}
+.col .row-4 .child-row-4 label{
+    font-size: 18px;
+}
+.col .row-4 .child-row-4 select, input{
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    outline: none;
+    border: 0.5px solid grey;
+}
+.col .row-4 .pastol-code{
+    width: 100px;
+}
+.col .row-4 .pastol-code label{
+    font-size: 18px;
+
+}
+.col .row-4 .pastol-code input{
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 0 15px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0.5px solid grey;
+}
+.col .row-5{
+    width: 100%;
+    height: 20px;
+    /* margin-bottom: 40px; */
+
+}
+.col .row-5 input{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 0.5px solid grey;
+}
+.col .row-5 label{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.col .row-6{
+    width: 100%;
+    margin-bottom: 45px;
+}
+.col .row-6 .child-row-6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col .row-6 label{
+    font-size: 18px;
+}
+.col .row-6 input{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 15px;
+}
+.col .row-7, .row-8, .row-9{
+    margin-bottom: 40px;
+}
+.col .row-7 label{
+    font-size: 18px;
+}
+.col .row-7 input{
+    width: 40%;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.col .row-8 label{
+    font-size: 18px;
+}
+.col .row-8 input{
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+}
+.col .row-9{
+    width: 50%;
+    height: 80px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.col .row-9 .child-col{
+    width: calc(95% / 3);
+}
+.col .row-9 .child-col img{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+.col .row-10 form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.col .row-10 label{
+    font-size: 18px;
+}
+.col .row-10 .child1-row-10{
+    width: 20%;    
+}
+.col .row-10 .child2-row-10{
+    width: 28%;
+}
+.col .row-10 .child3-row-10{
+    width: 45%; 
+}
+.col .row-10 input{
+    padding-left: 15px;
+}
+.col .row-5 button {
+    width: 270px;
+    height: 45px;
+    margin-left: 50px;
+    background-color: darkcyan;
+    border: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 8px;
+}
